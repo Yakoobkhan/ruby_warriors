@@ -17,9 +17,9 @@ puts "lesson3"
   # there are diff ways of calling a single  statement or methods which does an operation 
   # we  have to chose wisely and rem ruby is a developer friendly language 
 
-  puts 1+2      #best 
-  puts 1.+(2)   #rocket sciense 
-  puts 1.send(:+,2)
+puts 1+2      #best 
+puts 1.+(2)   #rocket sciense 
+puts 1.send(:+,2)
 words=["saif","ismail","yakub"]
 puts words [-1]
-  puts words.[](-1)
+puts words.[](-1)			#NOT SO friendly
