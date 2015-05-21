@@ -3,10 +3,8 @@
 
 #def array_metod(array, value)
 #	puts array.map { |e|  e+value }
-#array_metod([2,3,4], 5)
+#array_metod([2,3,4], 5)  
 #end
-
-
 
 
 #write a class by name array which hs following method
@@ -27,6 +25,10 @@ class Array
 	def add_arg_to_array(array, value)
 		puts "add_arg_to_array"
 		puts array.map { |e|  e+value }
+	end
+	def cover_ruby_monk_methods
+		#your code here
+		
 	end
 end
 array=Array.new
